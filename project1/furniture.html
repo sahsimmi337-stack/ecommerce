@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body id="top">
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border" onclick="window.location.href='home.html'">
+               <div class="logo">
+
+               </div> 
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                   <p class="add-second">India</p> 
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select" id="category">
+                    <option>All</option>
+                    <option>Clothes</option>
+                    <option>Skin Care</option>
+                    <option>Furniture</option>
+                    <option>Electronics</option>
+                    <option>Make-up</option>
+                    <option>Home Decor</option>
+                    <option>Books</option>
+                    <option>Fashion</option>
+                </select>
+
+            <input class="search-input" 
+                type="text" 
+                id="searchInput"
+                placeholder="Search Amazon">
+
+            <div class="search-icon" id="searchButton">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        
+                    
+            </div>
+            <div class="nav-signin border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& orders</p>
+            </div>
+
+            <div class="nav-cart border" onclick="window.location.href='cart.html'">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        
+    
+        
+    </header>
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('f1.jpg');"></div>
+                    <h2>Bookshelf</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹4999</h3>
+
+                        <button class="cart-btn" data-id="40">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('f2.jpg');"></div>
+                    <h2>Sofa</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹9999</h3>
+
+                        <button class="cart-btn" data-id="33">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('f3.jpg');"></div>
+                    <h2>Bed</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹7999</h3>
+
+                        <button class="cart-btn" data-id="34">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('f4.jpg');"></div>
+                    <h2>Chair</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹3999</h3>
+
+                        <button class="cart-btn" data-id="35">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box5 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('f5.jpg');"></div>
+                    <h2>Dining table</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹12999</h3>
+
+                        <button class="cart-btn" data-id="36">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('f6.jpg');"></div>
+                    <h2>Coffee table</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹2999</h3>
+
+                        <button class="cart-btn" data-id="37">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('f7.jpg');"></div>
+                    <h2>Storage shelf</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹2999</h3>
+
+                        <button class="cart-btn" data-id="38">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('f8.jpg');"></div>
+                    <h2>Cupboard</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹13999</h3>
+
+                        <button class="cart-btn" data-id="39">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div>
+         
+        <a href="home.html" class="back-home">
+             Back to Home
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>

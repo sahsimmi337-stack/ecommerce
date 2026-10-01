@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body id="top">
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border" onclick="window.location.href='home.html'">
+               <div class="logo">
+
+               </div> 
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                   <p class="add-second">India</p> 
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select" id="category">
+                    <option>All</option>
+                    <option>Clothes</option>
+                    <option>Skin Care</option>
+                    <option>Furniture</option>
+                    <option>Electronics</option>
+                    <option>Make-up</option>
+                    <option>Home Decor</option>
+                    <option>Books</option>
+                    <option>Fashion</option>
+                </select>
+
+            <input class="search-input" 
+                type="text" 
+                id="searchInput"
+                placeholder="Search Amazon">
+
+            <div class="search-icon" id="searchButton">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        
+                    
+            </div>
+            <div class="nav-signin border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& orders</p>
+            </div>
+
+            <div class="nav-cart border" onclick="window.location.href='cart.html'">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        
+    
+        
+    </header>
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('e1.jpg');"></div>
+                    <h3>BoAt Wave Call 3 Smartwatch</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹999</h3>
+
+                        <button class="cart-btn" data-id="17">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('e2.jpg');"></div>
+                    <h2>Redmi Pad 2</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹9,999</h3>
+
+                        <button class="cart-btn" data-id="18">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('e4.jpg');"></div>
+                    <h2>HP OmniBook 3</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹39,999</h3>
+
+                        <button class="cart-btn" data-id="19">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('e5.jpg');"></div>
+                    <h2>iPhone 18 Pro Max (1 TB)</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹1,64,900</h3>
+
+                        <button class="cart-btn" data-id="20">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box5 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('e6.jpg');"></div>
+                    <h2>boAt Airdopes Joy</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹799</h3>
+
+                        <button class="cart-btn" data-id="21">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('e7.jpg');"></div>
+                    <h2>PHILIPS Smart LED</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹21,999</h3>
+
+                        <button class="cart-btn" data-id="22">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('e8.jpg');"></div>
+                    <h2>Samsung Galaxy M47 5G</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹39,999</h3>
+
+                        <button class="cart-btn" data-id="23">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('e9.jpg');"></div>
+                    <h2>OnePlus Nord CE6</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹37,999</h3>
+
+                        <button class="cart-btn" data-id="24">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div>
+         
+        <a href="home.html" class="back-home">
+             Back to Home
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>

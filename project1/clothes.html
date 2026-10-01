@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body id="top">
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border" onclick="window.location.href='home.html'">
+               <div class="logo">
+
+               </div> 
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                   <p class="add-second">India</p> 
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select" id="category">
+                    <option>All</option>
+                    <option>Clothes</option>
+                    <option>Skin Care</option>
+                    <option>Furniture</option>
+                    <option>Electronics</option>
+                    <option>Make-up</option>
+                    <option>Home Decor</option>
+                    <option>Books</option>
+                    <option>Fashion</option>
+                </select>
+
+            <input class="search-input" 
+                type="text" 
+                id="searchInput"
+                placeholder="Search Amazon">
+
+            <div class="search-icon" id="searchButton">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        
+                    
+            </div>
+            <div class="nav-signin border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& orders</p>
+            </div>
+
+            <div class="nav-cart border" onclick="window.location.href='cart.html'">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        
+    
+        
+    </header>
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                    <div class="box-img" style="background-image: url('c1.webp');"></div>
+                        <h2>T-shirt</h2>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹499</h3>
+
+                        <button class="cart-btn" data-id="9">Add to Cart</button>
+                
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('c2.jpg');"></div>
+                    <h3>T-shirt(pack of 3)</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹699</h3>
+
+                        <button class="cart-btn" data-id="10">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('c3.webp');"></div>
+                    <h3>Trouser(pack of 2)</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹499</h3>
+
+                        <button class="cart-btn" data-id="11">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('c4.webp');"></div>
+                    <h3>Top for women</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹399</h3>
+
+                        <button class="cart-btn" data-id="12">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box5 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('c5.webp');"></div>
+                    <h3> Straight kurti(pack of 3)</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹799</h3>
+
+                        <button class="cart-btn" data-id="13">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('c6.jpg');"></div>
+                    <h3> Straight kurti 🔴</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹499</h3>
+
+                        <button class="cart-btn" data-id="14">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('c7.jpg');"></div>
+                    <h3>Peplum kurti ⚪</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹499</h3>
+
+                        <button class="cart-btn" data-id="15">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('c8.jpg');"></div>
+                    <h3>A-line kurti 🟢</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹499</h3>
+
+                        <button class="cart-btn" data-id="16">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div>
+         
+        <a href="home.html" class="back-home">
+            Back to home
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>

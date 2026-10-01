@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body id="top">
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border" onclick="window.location.href='home.html'">
+               <div class="logo">
+
+               </div> 
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                   <p class="add-second">India</p> 
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select" id="category">
+                    <option>All</option>
+                    <option>Clothes</option>
+                    <option>Skin Care</option>
+                    <option>Furniture</option>
+                    <option>Electronics</option>
+                    <option>Make-up</option>
+                    <option>Home Decor</option>
+                    <option>Books</option>
+                    <option>Fashion</option>
+                </select>
+
+            <input class="search-input" 
+                type="text" 
+                id="searchInput"
+                placeholder="Search Amazon">
+
+            <div class="search-icon" id="searchButton">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        
+                    
+            </div>
+            <div class="nav-signin border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& orders</p>
+            </div>
+
+            <div class="nav-cart border" onclick="window.location.href='cart.html'">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        
+    
+        
+    </header>
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('s1.jpg');"></div>
+                    <h3>Plum skincare kit</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹999</h3>
+
+                        <button class="cart-btn" data-id="64">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('s2.jpg');"></div>
+                    <h3>10% Niacinemide serum</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹499</h3>
+
+                        <button class="cart-btn" data-id="63">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('s3.webp');"></div>
+                    <h3>Face ice roller</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹199</h3>
+
+                        <button class="cart-btn" data-id="62">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('s4.jpg');"></div>
+                    <h3>Cetaphil gentle cleanser</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹499</h3>
+
+                        <button class="cart-btn" data-id="61">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box5 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('s5.jpg');"></div>
+                    <h3>Lakme blush & glow sheetmask</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹99</h3>
+
+                        <button class="cart-btn" data-id="60">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('s6.webp');"></div>
+                    <h3>Dot & key skincare kit</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹1199</h3>
+
+                        <button class="cart-btn" data-id="59">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('s7.jpg');"></div>
+                    <h3>Dove bodywash</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹499</h3>
+
+                        <button class="cart-btn" data-id="58">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('s8.jpg');"></div>
+                    <h3>Loreal paris shampoo</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹799</h3>
+
+                        <button class="cart-btn" data-id="57">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div>
+         
+        <a href="home.html" class="back-home">
+             <i class="fa-solid fa-house"></i>
+             Back to Home
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>

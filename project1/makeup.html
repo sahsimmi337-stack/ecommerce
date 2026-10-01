@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body id="top">
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border" onclick="window.location.href='home.html'">
+               <div class="logo">
+
+               </div> 
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                   <p class="add-second">India</p> 
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select" id="category">
+                    <option>All</option>
+                    <option>Clothes</option>
+                    <option>Skin Care</option>
+                    <option>Furniture</option>
+                    <option>Electronics</option>
+                    <option>Make-up</option>
+                    <option>Home Decor</option>
+                    <option>Books</option>
+                    <option>Fashion</option>
+                </select>
+
+            <input class="search-input" 
+                type="text" 
+                id="searchInput"
+                placeholder="Search Amazon">
+
+            <div class="search-icon" id="searchButton">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        
+                    
+            </div>
+            <div class="nav-signin border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& orders</p>
+            </div>
+
+            <div class="nav-cart border" onclick="window.location.href='cart.html'">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        
+    
+        
+    </header>
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('m1.jpg');"></div>
+                    <h3>Maybelline Liquid Foundation</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹180</h3>
+
+                        <button class="cart-btn" data-id="56">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('m2.jpg');"></div>
+                    <h3>Lakme Matte Lipstick</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹228</h3>
+
+                        <button class="cart-btn" data-id="55">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('m3.jpg');"></div>
+                    <h3>MARS 12 Shades Eyeshadow</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹257</h3>
+
+                        <button class="cart-btn" data-id="54">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('m4.jpg');"></div>
+                    <h3>6 Pcs Makeup Brush Kit Set </h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹249</h3>
+
+                        <button class="cart-btn" data-id="53">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box5 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('m5.jpg');"></div>
+                    <h3>INSIGHT Lip & Cheek Tint </h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹99</h3>
+
+                        <button class="cart-btn" data-id="52">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('m6.jpg');"></div>
+                    <h3>Blue Heaven Festive Makeup Kit </h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹629</h3>
+
+                        <button class="cart-btn" data-id="51">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('m7.jpg');"></div>
+                    <h3>RENEE Gloss Stay Transfer</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹545</h3>
+
+                        <button class="cart-btn" data-id="50">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('m8.jpg');"></div>
+                    <h3>Lakme Eyeconic Regime Kit</h3>
+                        <p class="rating">
+                            ⭐⭐⭐⭐⭐ <span>(1,234 reviews)</span>
+                        </p>
+
+                        <h3 class="price">₹404</h3>
+
+                        <button class="cart-btn" data-id="49">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div>
+         
+        <a href="home.html" class="back-home">
+             Back to Home
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
